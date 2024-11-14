@@ -1,9 +1,14 @@
 {
     "compilerOptions": {
-        "outDir": "./dist",
-        "module": "CommonJS",
-        "target": "ES2019",
+        "target": "es2022",
+        "module": "es2022",
+        "moduleResolution": "node",
+        "skipLibCheck": true,
+        "allowJs": true,
         "esModuleInterop": true,
-        "allowJs": true
+        "strict": true,
+        "strictNullChecks": false,
+        "strictPropertyInitialization": false,
+        "outDir": "./dist"
     }
 }
