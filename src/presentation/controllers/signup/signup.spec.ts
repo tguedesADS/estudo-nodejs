@@ -186,7 +186,7 @@ describe('SignUp Controller', () => {
             }
         };
         await sut.handle(httpRequest);
-        expect(addSpy).toHaveBeenLastCalledWith({
+        expect(addSpy).toHaveBeenCalledWith({
             name: 'any_name',
             email: 'any_email@email.com',
             password: 'any_password',
